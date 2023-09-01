@@ -6,7 +6,7 @@
 
 This script allows you to analyze package statistics for a specified architecture by fetching package information from a Debian mirror repository. It provides insights into packages with the highest number of files. The script offers the following functionalities:
 
-- Fetches package contents from the specified mirror URL.
+- Fetches package contents from the specified mirror URL. (http://ftp.uk.debian.org/debian/dists/stable/main/)
 - Parses the contents to count the number of files per package.
 - Prints the top 10 packages with the most files for the given architecture.
 
